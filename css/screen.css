@@ -2,6 +2,7 @@
     body{
         margin:20px 20px 20px 20px;
         background-image: url("../img/bg.jpg");
+        width:1080px;
         }
 
     h1{
@@ -52,14 +53,19 @@
         margin: 0px 0px 0px 50px;
     }
 
-    #submit_button{
+    #submit_button, #image_button{
         margin:auto;
         display:block;
         background-color:darkred;
         color:white;
-        height:1.25em;
+        height:175px;
         width:95%;
         font-size: 7.5em;
+    }
+
+    #text2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 
@@ -99,7 +105,7 @@
         width:40px;
     }
 
-    #submit_button{
+    #submit_button, #image_button{
         margin:auto;
         display:block;
         background-color:darkred;
