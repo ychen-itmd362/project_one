@@ -9,23 +9,24 @@
   <link rel="stylesheet" media="screen" href="style/screen.css" />
 </head>
 <body>
-<h1>Sign up to receive daily email or text of cute dog pictures!</h1>
+  <h1>Sign up to receive daily email or text of cute dog pictures!</h1>
 
-<form method="get" action="#null">
+  <form method="get" action="#null">
     <label for="email_input">Email Address</label>
     <input id="email_input" type="text">
 
     <label for="phone_input">Phone Number</label>
     <input id="phone_input" type="tel">
 
-    <label for="preference">Preference in receiving message</label>
-    <input type="radio" name="pref" value="email"> Email
-    <input type="radio" name="pref" value="phone"> Phone
-    <input type="radio" name="pref" value="both"> Both
+    <label for="contact_pref">Email AddressPreference in receiving message</label>
+    <input type="radio" id="choice1" name="pref" value="email"> 
+    <label for="choice1">Email</label>
+    <input type="radio" id="choice2" name="pref" value="phone"> 
+    <label for="choice2">Phone</label>
+    <input type="radio" id="choice3" name="pref" value="both"> 
+    <label for="choice3">Both</label>
 
     <input id="submit_button" type="button" value="submit">
   </form>
-
-  <p><strong></strong></p>
 </body>
 </html>

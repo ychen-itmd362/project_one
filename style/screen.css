@@ -1,31 +1,43 @@
-body{
-    margin:20px 20px 20px 20px;
-}
-
-#submit_button{
-    background-color:darkred;
-    color: white;
-    width:250px;
+h1{
+    font-size: 5em;
 }
 
 label{
-    font-size:1.5em;
-    margin:0px 0 20px 10px;
+
 }
 
-input{
-    display: block;
-    font-size:1em;
-    padding:4px 2px;
-    border:solid 1px #aacfe4;
-    width:350px;
-    margin:0px 0 20px 10px;
-}
 
-@media screen and (min-width: 320px) {
 
-    input{
-        width:80%;
+@media screen and (min-width: 720px) {
+    
+    body{
+    margin:20px 20px 20px 20px;
+    background-color: #aacfe4;
     }
 
+    h1{
+        display:block;
+        margin:auto;
+        width:1080px;
+        padding:20px;
+    }
+
+    form{
+        width: 1080px;
+        
+    }
+
+    #submit_button{
+        margin:20px 20px 20px 20px;
+        display:block;
+        background-color:darkred;
+        color: white;
+        width:250px;
+    }
+
+    input{
+        display:inline;
+        font-size:1.5em;
+        border:solid 1px #aacfe4;
+    }
 }
