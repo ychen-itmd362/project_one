@@ -1,11 +1,14 @@
 @media screen and (min-width: 300px) {
 
     h1{
-        font-size: 5em;
+        font-size: 7.5em;
     }
 
     #contact_form, #contact_choice{
-        padding: 1.5em 2.5em;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     #phone_input, #email_input, #contact_pref{
@@ -29,7 +32,15 @@
         margin: 0px 0px 0px 50px;
     }
 
-
+    #submit_button{
+        margin:auto;
+        display:block;
+        background-color:darkred;
+        color:white;
+        height:1.25em;
+        width:95%;
+        font-size: 7.5em;
+    }
 }
 
 @media screen and (min-width: 720px) {
@@ -49,14 +60,6 @@
     form{
         width: 1080px;
         
-    }
-
-    #submit_button{
-        margin:20px 20px 20px 20px;
-        display:block;
-        background-color:darkred;
-        color: white;
-        width:250px;
     }
 
     input{
