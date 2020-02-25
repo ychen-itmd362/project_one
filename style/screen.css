@@ -1,7 +1,7 @@
 @media only screen and (max-device-width: 719px) {
     body{
         margin:20px 20px 20px 20px;
-        background-color: #aacfe4;
+        background-image: url("../img/bg.jpg");
         }
 
     h1{
@@ -10,6 +10,7 @@
         margin:auto;
         width:1080px;
         padding:20px;
+        font-weight: bold;
     }
 
     #contact_form, #contact_choice{
@@ -29,10 +30,11 @@
     }
 
     label{ 
-        font-size:4em;
+        font-size:5em;
         display:block;
         width:100%;
         padding: 50px 0 0 0;
+        font-weight: bold;
     }
 
     input{
@@ -42,8 +44,8 @@
     }
 
     input[type=radio] {
-        height:40px;
-        width:40px;
+        height:75px;
+        width:75px;
     }
 
     #choice1, #choice2, #choice3 {
@@ -71,6 +73,7 @@
         text-align: center;
         margin:auto;
         padding:20px;
+        font-weight: bold;
     }
 
     #contact_form, #contact_choice{
@@ -88,6 +91,7 @@
         width:100%;
         padding-top:10px;
         padding-bottom: 10px;
+        font-weight: bold;
     }
 
     input[type=radio] {
