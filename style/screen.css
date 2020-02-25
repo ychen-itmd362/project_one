@@ -4,11 +4,11 @@
         font-size: 5em;
     }
 
-    #contact_form{
+    #contact_form, #contact_choice{
         padding: 1.5em 2.5em;
     }
 
-    #phone_input, #email_input{
+    #phone_input, #email_input, #contact_pref{
         height: 4em;
         width: 100%;
     }
@@ -19,6 +19,17 @@
         width:100%;
         padding: 50px 0 0 0;
     }
+
+    input[type=radio] {
+        height:40px;
+        width:40px;
+    }
+
+    #choice1, #choice2, #choice3 {
+        margin: 0px 0px 0px 50px;
+    }
+
+
 }
 
 @media screen and (min-width: 720px) {

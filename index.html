@@ -13,19 +13,28 @@
 
   <form method="get" action="#null">
     <div id="contact_form">
-    <label for="email_input">Email Address</label>
-    <input id="email_input" type="text">
+      <label for="email_input">Email Address</label>
+      <input id="email_input" type="text">
 
-    <label for="phone_input">Phone Number</label>
-    <input id="phone_input" type="tel">
+      <label for="phone_input">Phone Number</label>
+      <input id="phone_input" type="tel">
     </div>
-    <label for="contact_pref">Email AddressPreference in receiving message</label>
-    <input type="radio" id="choice1" name="pref" value="email"> 
-    <label for="choice1">Email</label>
-    <input type="radio" id="choice2" name="pref" value="phone"> 
-    <label for="choice2">Phone</label>
-    <input type="radio" id="choice3" name="pref" value="both"> 
-    <label for="choice3">Both</label>
+
+    <div id="contact_choice">
+      <label for="contact_pref">Preference for Contact</label>
+      <label for="choice1">
+        <input type="radio" id="choice1" name="pref" value="email">
+        Email
+      </label>
+      <label for="choice2">
+        <input type="radio" id="choice2" name="pref" value="phone"> 
+        Phone
+      </label>
+      <label for="choice3">
+        <input type="radio" id="choice3" name="pref" value="both"> 
+        Both
+      </label>
+    </div>
 
     <input id="submit_button" type="button" value="submit">
   </form>
