@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 300px) {
+@media only screen and (max-device-width: 719px) {
     body{
         margin:20px 20px 20px 20px;
         background-color: #aacfe4;
@@ -63,6 +63,45 @@
 
 @media only screen and (min-device-width: 720px) {
     body{
-        background-color: red;
+        background-image: url("../img/bg.jpg");
+    }
+
+    h1{
+        font-size: 4.5em;
+        text-align: center;
+        margin:auto;
+        padding:20px;
+    }
+
+    #contact_form, #contact_choice{
+        padding-left: 35%;
+    }
+
+    #phone_input, #email_input, #contact_pref{
+        height: 3em;
+        width:500px
+    }
+
+    label{ 
+        font-size:3em;
+        display:block;
+        width:100%;
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+
+    input[type=radio] {
+        height:40px;
+        width:40px;
+    }
+
+    #submit_button{
+        margin:auto;
+        display:block;
+        background-color:darkred;
+        color:white;
+        height:1.25em;
+        width:600px;
+        font-size: 3.5em;
     }
 }
