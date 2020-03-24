@@ -1,24 +1,21 @@
-@media only screen and (max-device-width: 719px) {
+@media screen and (max-width: 719px) {
     body{
-        margin:20px 20px 20px 20px;
         background-image: url("../img/bg.jpg");
-        width:1080px;
+        width:100%;
         }
 
     h1{
-        font-size: 7.5em;
+        font-size: 3em;
         display:block;
         margin:auto;
-        width:1080px;
         padding:20px;
         font-weight: bold;
+        text-align: center;
     }
 
     #contact_form, #contact_choice{
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     #phone_input, #email_input, #contact_pref{
@@ -27,11 +24,11 @@
     }
 
     form{
-        width: 1080px;
+        width: 100%;
     }
 
     label{ 
-        font-size:5em;
+        font-size:2.5em;
         display:block;
         width:100%;
         padding: 50px 0 0 0;
@@ -45,8 +42,8 @@
     }
 
     input[type=radio] {
-        height:75px;
-        width:75px;
+        height:50px;
+        width:50px;
     }
 
     #choice1, #choice2, #choice3 {
@@ -58,9 +55,8 @@
         display:block;
         background-color:darkred;
         color:white;
-        height:175px;
         width:95%;
-        font-size: 7.5em;
+        font-size: 4.5em;
     }
 
     #text2 {
@@ -75,7 +71,7 @@
     }
 }
 
-@media only screen and (min-device-width: 720px) {
+@media screen and (min-width: 720px) {
     body{
         background-image: url("../img/bg.jpg");
     }
@@ -104,6 +100,12 @@
         padding-top:10px;
         padding-bottom: 10px;
         font-weight: bold;
+    }
+
+    input {
+        font-size: 2.5em;
+        margin: none;
+        padding: none;
     }
 
     input[type=radio] {
