@@ -104,8 +104,6 @@
 
     input {
         font-size: 2.5em;
-        margin: none;
-        padding: none;
     }
 
     input[type=radio] {
