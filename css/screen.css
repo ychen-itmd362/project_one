@@ -19,7 +19,7 @@
     }
 
     #phone_input, #email_input, #contact_pref{
-        height: 4em;
+        padding: 5px 0;
         width: 100%;
     }
 
@@ -31,13 +31,13 @@
         font-size:2.5em;
         display:block;
         width:100%;
-        padding: 50px 0 0 0;
+        padding: 25px 0 0 0;
         font-weight: bold;
     }
 
     input{
         display:inline;
-        font-size:1.5em;
+        font-size:2em;
         border:solid 1px #aacfe4;
     }
 
@@ -47,7 +47,7 @@
     }
 
     #choice1, #choice2, #choice3 {
-        margin: 0px 0px 0px 50px;
+        margin: 0px 0px 0px 10px;
     }
 
     #submit_button, #image_button{
@@ -89,8 +89,8 @@
     }
 
     #phone_input, #email_input, #contact_pref{
-        height: 3em;
-        width:500px
+        padding: 10px 0;
+        width:500px;
     }
 
     label{ 
